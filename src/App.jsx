@@ -1,4 +1,4 @@
-import { NavBar } from './components/NavBar'
+import { NavBar, SearchBar } from './components';
 import './App.css'
 import { MenuIcon, NewChatIcon } from './components/Icons'
 
@@ -15,6 +15,7 @@ function App () {
           </div>
         </div>
       </div>
+      <SearchBar/>
     </div>
 
   )
