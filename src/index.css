@@ -13,6 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
 body {
   width: 100%;
+  height: 100%;
 }

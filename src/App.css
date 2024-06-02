@@ -2,6 +2,6 @@
   display: flex;
   height: calc(100% - 38px);
   width: calc(100% - 38px);
-  background-color: white;
+  background-color: black;
   margin: 0 auto;
 }
