@@ -5,3 +5,34 @@
   background-color: black;
   margin: 0 auto;
 }
+
+.chats-container {
+  height: 100%;
+  background-color: #111B21;
+  width: 100%;
+  max-width: 400px;
+}
+
+.chats-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 59px;
+  padding: 0px 20px 0px 25px;
+  font-weight: bold;
+  font-size: 22px;
+  color: #E9EDEF;
+}
+
+.chat-actions {
+  display: flex;
+  align-items: center;
+}
+
+.chats-header span {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
