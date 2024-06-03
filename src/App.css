@@ -45,3 +45,10 @@
   height: 40px;
   padding: 8px;
 }
+
+.selector-container{
+  display: flex;
+  align-items: center;
+  padding: 2px 16px 7px 16px;
+  gap: 4px;
+}

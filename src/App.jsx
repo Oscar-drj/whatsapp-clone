@@ -1,6 +1,7 @@
 import { NavBar, SearchBar } from './components';
 import './App.css'
 import { MenuIcon, NewChatIcon } from './components/Icons'
+import { SelectionBox } from './components/SelectionBox';
 
 function App () {
   return (
@@ -16,6 +17,12 @@ function App () {
             </div>
           </div>
           <SearchBar/>
+          <div className="selector-container">
+            <SelectionBox text={'All'}/>
+            <SelectionBox text={'Unread'}/>
+            <SelectionBox text={'Groups'}/>
+          </div>
+          
         </div>
       </div>
     </div>

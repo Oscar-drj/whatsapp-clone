@@ -1,0 +1,13 @@
+.selection-box-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.slection-btn {
+    padding: 6px 12px;
+    border-radius: 42px;
+    border: none;
+    background-color: #202C33;
+    color: #8696A0;
+    font-size: .9375rem;
+}
